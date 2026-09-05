@@ -1,0 +1,19 @@
+ultralytics>=8.0.0
+opencv-python-headless>=4.8.0
+streamlit>=1.25.0
+numpy>=1.23.0
+tabulate>=0.9.0
+matplotlib>=3.7.0
+What each library is used for in your project:
+
+ultralytics: Provides the YOLOv8 object detector and the integrated ByteTrack algorithm.
+
+opencv-python-headless: Reads video frames, draws bounding boxes, tripwires, and ID labels. Using the headless version ensures it runs without GUI display errors on web servers like Streamlit Cloud.
+
+streamlit: Powers your web-based interactive dashboard to upload videos, adjust sliders, and view the live count.
+
+numpy: Handles array manipulations and bounding box coordinate calculations.
+
+tabulate: Formats the terminal accuracy and evaluation tables.
+
+matplotlib: Generates the track duration histogram used in your robustness analysis.
